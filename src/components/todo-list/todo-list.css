@@ -1,0 +1,38 @@
+
+.todo-list {
+  padding: 10px 0;
+  border: 5px solid rgba(1, 1, 1, 0.1);
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.todo-list-title {
+  background-color: #16c60c;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: cursive;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+  border-radius: 25px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.todo-list-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: cursive;
+
+}
+
+.no-todos {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+  color: gray;
+}
+
